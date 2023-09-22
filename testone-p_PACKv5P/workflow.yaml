@@ -1,0 +1,16 @@
+schema: workflow/2022.04
+name: TestOne
+settings:
+  error_notification: true
+triggers:
+- id: hi_xQHXBJY
+steps:
+- namespace: get_artist_top_tracks
+  runtime: nodejs18.x
+  uses: spotify-get-artist-top-tracks@0.1.1
+  props:
+    spotify:
+      authProvisionId: apn_3JhQwL
+    artistId: 762310PdDnwsDxAQxzQkfX
+    market: US
+
