@@ -13,4 +13,7 @@ steps:
       authProvisionId: apn_3JhQwL
     artistId: 762310PdDnwsDxAQxzQkfX
     market: US
+- namespace: filterResults
+  runtime: nodejs18.x
+  uses: "./filterResults/entry.js"
 
