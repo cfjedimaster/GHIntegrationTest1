@@ -16,4 +16,7 @@ steps:
 - namespace: filterResults
   runtime: nodejs18.x
   uses: "./filterResults/entry.js"
+- namespace: code
+  runtime: nodejs18.x
+  uses: "./code/entry.js"
 
